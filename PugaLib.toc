@@ -3,6 +3,7 @@
 ## Interface: 120100, 50504, 11509, 20506, 16001
 ## Title: PugaLib
 ## Version: 0.1.0
+## Author: José Puga
 ## IconTexture: 132996
 
 ## Notes: Common libraries for Puga addons
