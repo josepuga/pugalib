@@ -1,0 +1,43 @@
+## TAG_ORDER: wow wow_classic wow_classic_era wow_anniversary wow_classic_beta
+# Extract WoW version with: /dump select(4, GetBuildInfo())
+## Interface: 120100, 50504, 11509, 20506, 16001
+## Title: PugaLib
+## Version: 0.1.0
+## IconTexture: 132996
+
+## Notes: Common libraries for Puga addons
+## Notes-esES: Biblioteca común para Addons Puga
+## Notes-esMX: Biblioteca común para Addons Puga
+
+## Category: Libraries
+## Category-deDE: Bibliotheken
+## Category-esES: Bibliotecas
+## Category-esMX: Bibliotecas
+## Category-frFR: Bibliothèques
+## Category-itIT: Librerie
+## Category-koKR: 라이브러리
+## Category-ptBR: Bibliotecas
+## Category-ruRU: Библиотеки
+## Category-zhCN: 函数库
+## Category-zhTW: 函式庫
+
+Core.lua
+Constants.lua
+
+Unit/Unit.lua
+
+UI/Widget.lua
+UI/Window.lua
+UI/Label.lua
+UI/Edit.lua
+UI/Memo.lua
+UI/Icon.lua
+UI/IconAtlas.lua
+UI/Image.lua
+UI/ComboBox.lua
+UI/Button.lua
+UI/RadioButton.lua
+UI/RadioGroup.lua
+UI/DialogYesNo.lua
+UI/Tooltip.lua
+UI/Link.lua
