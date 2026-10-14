@@ -1,5 +1,5 @@
 ## Title: PugaLib
-## Version: 0.1.0
+## Version: 0.1.1
 ## Author: José Puga
 ## X-License: MIT
 # CurseForge: https://www.curseforge.com/wow/addons/pugalib
@@ -10,8 +10,8 @@
 ## X-Wago-ID: x61xkBN1
 ## X-WoWI-ID:
 
-## TAG_ORDER: wow wow_classic wow_classic_era wow_anniversary wow_classic_beta
-## Interface: 120100, 50504, 11509, 20506, 16001
+## TAG_ORDER: wow wow_anniversary wow_classic_beta wow_classic wow_classic_era
+## Interface: 120105, 20506, 16001, 50504, 11509
 # Extract WoW version with: /dump select(4, GetBuildInfo())
 
 ## Notes: Common libraries for Puga addons
