@@ -1,5 +1,5 @@
 ## Title: PugaLib
-## Version: 0.1.1
+## Version: 0.1.2
 ## Author: José Puga
 ## X-License: MIT
 # CurseForge: https://www.curseforge.com/wow/addons/pugalib
