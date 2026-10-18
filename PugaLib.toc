@@ -1,5 +1,5 @@
 ## Title: PugaLib
-## Version: 0.1.2
+## Version: 0.1.3
 ## Author: José Puga
 ## X-License: MIT
 # CurseForge: https://www.curseforge.com/wow/addons/pugalib
@@ -44,6 +44,7 @@ UI/Icon.lua
 UI/IconAtlas.lua
 UI/Image.lua
 UI/ComboBox.lua
+UI/CheckBox.lua
 UI/Button.lua
 UI/RadioButton.lua
 UI/RadioGroup.lua
