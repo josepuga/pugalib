@@ -98,6 +98,7 @@ function PL.UI:NewComboBox(Parent, Options)
     --
     ComboBox.Items = Items
     ComboBox.Selected = Selected
+    ComboBox.OnChange = Options.OnChange
 
 
     --
@@ -129,6 +130,10 @@ function PL.UI:NewComboBox(Parent, Options)
         self:SetDefaultText(
             self.Items[Index]
         )
+
+        if self.OnChange then
+            self.OnChange(Index)
+        end
     end
 
 
@@ -157,6 +162,7 @@ function PL.UI:NewComboBox(Parent, Options)
         Selected
     )
 
+    ComboBox.OnChange = Options.OnChange
 
     if Visible then
         ComboBox:Show()
